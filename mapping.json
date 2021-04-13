@@ -1,0 +1,28 @@
+{
+  "mappings": [
+    {
+      "name": "Bordeaux",
+      "isDefault":true,
+      "box": [
+        44.73258898857743,
+        -0.8452606201171874,
+        44.97597092998747,
+        -0.363922119140625
+      ],
+      "url": "https://data.bordeaux-metropole.fr/geojson?key=9Y2RU3FTE8&typename=st_park_p",
+      "dataArray": "features",
+      "dataElement": {
+        "lon": "geometry.coordinates[0]",
+        "lat": "geometry.coordinates[1]",
+        "etat": "properties.etat",
+        "nom": "properties.nom",
+        "libres": "properties.libres",
+        "total": "properties.total",
+        "info": "properties.infor",
+        "secteur": "properties.secteur",
+        "adresse": "properties.adresse",
+        "type": "properties.ta_type"
+      }
+    }
+  ]
+}
