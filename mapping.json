@@ -9,7 +9,7 @@
         44.97597092998747,
         -0.363922119140625
       ],
-      "url": "https://data.bordeaux-metropole.fr/geojson?key=9Y2RU3FTE8&typename=st_park_p",
+      "url": "https://data.bordeaux-metropole.fr/geojson?key=[YourKey]&typename=st_park_p",
       "dataArray": "features",
       "dataElement": {
         "lon": "geometry.coordinates[0]",
